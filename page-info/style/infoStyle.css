@@ -1,10 +1,17 @@
+.banner-section{
+    width: 100%;
+    height: 410px;
+    background: url('../img/info_main_top_block.png');
+}
+
+.banner-title{
+    font-size: 60px;
+}
+
 .main-content{
     display: flex;
     flex-direction: column;
-    align-item: center;
     height: 100%;
-}
+    width: 100%;
 
-.main-top-img-block{
-    background-image:
 }
