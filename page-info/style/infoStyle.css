@@ -1,4 +1,7 @@
 .banner-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     height: 410px;
     background: url('../img/info_main_top_block.png');
@@ -8,10 +11,60 @@
     font-size: 60px;
 }
 
+.banner-text{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
 .main-content{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-top: 77px;
     height: 100%;
     width: 100%;
+}
 
+.main-text-column{
+    margin-left: 6.8%;
+    margin-right: 3.1%;
+    width: 370px;
+}
+
+.main-text-column-2{
+    width: 100%;
+}
+
+.main-text-column-2-content{
+    margin-left: 2.1%;
+    margin-right: 7.55%;
+}
+
+.text-paragraph{
+    margin-bottom: 30px;
+}
+
+.bottom-banner{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 410px;
+    margin-top: 60px;
+    background: url('../img/info_main_bottom_block.png');
+}
+
+.below-main-content{
+    margin-left: 6.8%;
+    margin-right: 7.55%;
+    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6.8%;
+}
+
+.below-main-content-text-block{
+    width: 39%;
 }
