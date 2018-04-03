@@ -1,0 +1,26 @@
+.banner-contacts{
+    width: 100%;
+    height: 737px;
+    background: url(../img/banner-contacts.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.inner-banner-container{
+    width: 66.79%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.first-part-banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-title{
+    color: white;
+    font-family: CoCoGothic;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+}
