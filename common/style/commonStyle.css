@@ -101,3 +101,28 @@ a{
 .sprite-item-3{
     background-position-x: -58px;
 }
+
+.footer{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-text{
+    font-family: CoCoGothic;
+    font-size: 18px;
+}
+
+.footer-text-year{
+    font-family: "Century Gothic";
+    margin-right: 15px;
+}
