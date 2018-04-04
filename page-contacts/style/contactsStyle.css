@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    height: 100%;
 }
 
 .first-part-banner{
@@ -17,10 +18,140 @@
     justify-content: space-between;
 }
 
+.banner-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .banner-title{
+    margin-left: 25px;
     color: white;
     font-family: CoCoGothic;
     font-size: 36px;
     display: flex;
     flex-direction: column;
+}
+
+.banner-paragraph{
+    margin-left: 25px;
+    color: white;
+    margin-top: 45px;
+}
+
+.banner-list{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column-1-banner-part{
+    width: 43.8%;
+    text-align: justify;
+}
+
+.column-2-banner-part{
+    width: 38.2%;
+}
+
+.sprite-banner-img{
+    width: 50px;
+    height: 50px;
+    background: url(../img/sprite-banner-contacts.png);
+    margin-right: 35px;
+    background-position-x: -192px;
+}
+
+.link-banner-list{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.list-banner-img-2{
+    background-position-y: -74px;
+}
+
+.list-banner-img-3{
+    background-position-y: -150px;
+}
+
+.second-part-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-telephone{
+    display: flex;
+    margin-top: 100px;
+}
+
+.telephone-number{
+    color: white;
+    font-size: 48px;
+    font-family: "Century Gothic";
+}
+
+.telephone-number:first-of-type{
+    margin-right: 80px;
+}
+
+.second-sprites-container{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.second-sprites-item{
+    width: 52px;
+    height: 52px;
+    background: url(../img/sprite-banner-contacts.png);
+    background-position-x: -241px;
+    background-position-y: -203px;
+}
+
+.second-sprites-img-2{
+    background-position-x: -318px;
+}
+
+.second-sprites-img-3{
+    background-position-x: -394px;
+}
+
+.main{
+    width: 100%;
+}
+
+.main-content{
+    width: 100%;
+    padding-top: 66px;
+}
+
+.first-main-column{
+    display: flex;
+    flex-direction: column;
+    width: 30.7%;
+    margin-left: 75px;
+}
+
+.block-header-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-title{
+    font-family: CoCoGothic;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-logo{
+    margin-right: 95px;
 }
