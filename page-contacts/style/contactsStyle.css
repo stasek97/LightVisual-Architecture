@@ -139,7 +139,7 @@
     display: flex;
     flex-direction: column;
     width: 30.7%;
-    margin-left: 75px;
+    margin-left: 4.19%;
     justify-content: center;
 }
 
@@ -186,7 +186,7 @@
 }
 
 .card-photo{
-    width: 255px;
+    width: 23.7%;
     height: 255px;
     background: url(../img/card-photo.png) 100% 100% no-repeat;
     background-size: cover;
