@@ -53,6 +53,14 @@ a{
     height: 74px;
 }
 
+@media screen and (max-width: 1200px) {
+    .logo-img{
+        width: 52px;
+        height: 64px;
+    }
+}
+
+
 .logo-caption{
     font-family: CoCoGothic;
     font-size: 25px;
@@ -61,6 +69,14 @@ a{
     align-items: center;
     margin-left: 25px;
 }
+
+@media screen and (max-width: 1200px) {
+    .logo-caption{
+        font-size: 22px;
+        margin-left: 15px;
+    }
+}
+
 
 .secondary-logo-text{
     font-size: 10px;
@@ -76,11 +92,51 @@ a{
     font-size: 18px;
     font-weight: 600;
     display: flex;
+    height: 100%;
+    align-items: center;
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .list-menu{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .list-menu{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .list-menu {
+        font-size: 14px;
+    }
+}
+
 
 .menu-item{
     margin-right: 45px;
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .menu-item{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .menu-item{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .menu-item {
+        margin-right: 15px;
+    }
+}
+
 
 .sprites-container{
     display: flex;
