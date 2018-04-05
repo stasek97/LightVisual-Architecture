@@ -5,6 +5,12 @@
     background-size: cover;
 }
 
+@media screen and (max-width: 1100px) {
+    .banner-contacts {
+        margin-top: 85px;
+    }
+}
+
 .inner-banner-container{
     width: 66.79%;
     display: flex;
@@ -17,6 +23,13 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1100px) {
+    .first-part-banner {
+        flex-direction: column;
+    }
+}
+
 
 .banner-content{
     width: 100%;
@@ -34,6 +47,12 @@
     font-size: 36px;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 1100px) {
+    .banner-title {
+        font-size: 28px;
+    }
 }
 
 .banner-paragraph{
@@ -54,16 +73,32 @@
     text-align: justify;
 }
 
+@media screen and (max-width: 1100px) {
+    .column-1-banner-part {
+        width: 100%;
+    }
+}
+
+
 .column-2-banner-part{
     width: 38.2%;
+}
+
+@media screen and (max-width: 1100px) {
+    .column-2-banner-part {
+        width: 100%;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .sprite-banner-img{
     width: 50px;
     height: 50px;
-    background: url(../img/sprite-banner-contacts.png);
+    background: url(../img/color-sprite.png);
     margin-right: 35px;
-    background-position-x: -192px;
+    background-size: cover;
 }
 
 .link-banner-list{
@@ -72,12 +107,18 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1100px) {
+    .link-banner-list {
+        margin: 10px 0;
+    }
+}
+
 .list-banner-img-2{
-    background-position-y: -74px;
+    background-position-x: -66px;
 }
 
 .list-banner-img-3{
-    background-position-y: -150px;
+    background-position-x: -130px;
 }
 
 .second-part-banner{
@@ -91,14 +132,49 @@
     margin-top: 100px;
 }
 
+@media screen and (max-width: 1100px) {
+    .block-telephone {
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .telephone-number{
     color: white;
     font-size: 48px;
     font-family: "Century Gothic";
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .telephone-number{
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .telephone-number{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .telephone-number {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+}
+
 .telephone-number:first-of-type{
     margin-right: 80px;
+}
+
+@media screen and (max-width: 1100px) {
+    .telephone-number:first-of-type{
+        margin-right: 0;
+    }
 }
 
 .second-sprites-container{
@@ -139,7 +215,7 @@
     display: flex;
     flex-direction: column;
     width: 30.7%;
-    margin-left: 75px;
+    margin-left: 4.19%;
     justify-content: center;
 }
 
@@ -155,12 +231,25 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 1100px) {
+    .main-title {
+        font-size: 26px;
+        justify-content: center;
+    }
+}
+
 .main-logo{
     margin-right: 95px;
 }
 
 .main-paragraph{
     margin-top: 65px;
+}
+
+@media screen and (max-width: 1100px) {
+    .main-paragraph {
+        margin-top: 20px;
+    }
 }
 
 .main-link-mail{
@@ -186,11 +275,30 @@
 }
 
 .card-photo{
-    width: 255px;
+    width: 23.7%;
     height: 255px;
     background: url(../img/card-photo.png) 100% 100% no-repeat;
     background-size: cover;
     margin-top: 15px;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .card-photo{
+        height: 195px;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .card-photo{
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .card-photo {
+        height: 155px;
+    }
 }
 
 .card-text-photo{
@@ -202,6 +310,7 @@
     font-family: CoCoGothic;
     font-size: 18px;
     color: white;
+    background-size: cover;
 }
 
 .card-title{
