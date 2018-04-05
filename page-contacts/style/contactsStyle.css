@@ -5,6 +5,12 @@
     background-size: cover;
 }
 
+@media screen and (max-width: 1100px) {
+    .banner-contacts {
+        margin-top: 85px;
+    }
+}
+
 .inner-banner-container{
     width: 66.79%;
     display: flex;
