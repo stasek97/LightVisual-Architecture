@@ -166,6 +166,10 @@ a{
     background-position-x: -58px;
 }
 
+.main{
+    flex: 1;   
+}
+
 .footer{
     width: 100%;
     height: 70px;
