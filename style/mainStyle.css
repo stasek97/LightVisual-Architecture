@@ -49,10 +49,16 @@
 .text-style{
     text-align: center;
     color: white;
+    font-size: 1vw;
 }
 
 .banner-title{
-    font-size: 60px;
+    font-size: 4vw;
+    margin-bottom: 0.5%;
+}
+
+.banner-text{
+    margin-top: 23%;
 }
 
 .slider-menu{
@@ -98,8 +104,6 @@
 }
 
 .slide1 {
-    justify-items: center;
-
     background: url('../img/slider_1.png') no-repeat;
     background-size: cover;
 }
