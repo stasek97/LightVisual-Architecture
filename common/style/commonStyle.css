@@ -19,7 +19,7 @@
 }
 
 .inner-header-container{
-    max-width: 77.3%;
+    max-width: 41.3%;
     width: 100%;
     margin: 0 auto;
     height: 100%;
@@ -98,7 +98,6 @@ a{
 .list-menu{
     font-family: CoCoGothic;
     font-size: 18px;
-    font-weight: 600;
     display: flex;
     height: 100%;
     align-items: center;
