@@ -10,11 +10,11 @@
 //
 // animation();
 
-var preview = document.getElementById("preview");
+let preview = document.getElementById("preview");
 function up() {
-    var start = Date.now();
-    var timer = setInterval(function () {
-        var timePassed = Date.now() - start;
+    let start = Date.now();
+    let timer = setInterval(function () {
+        let timePassed = Date.now() - start;
 
         if (timePassed >= 6000) {
             clearInterval(timer);
@@ -29,4 +29,4 @@ function draw(timePassed) {
     preview.style.bottom = timePassed / 1.25 + 'px';
 }
 
-setTimeout(up(),4000);
+setTimeout(up, 3000);
