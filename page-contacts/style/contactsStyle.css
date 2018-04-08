@@ -174,18 +174,18 @@
 }
 
 .list-banner-img-3{
-    background-position-x: -79px;
+    background-position-x: -78px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
     .list-banner-img-3{
-        background-position-x: -79px;
+        background-position-x: -78px;
     }
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1199px) {
     .list-banner-img-3{
-        background-position-x: -79px;
+        background-position-x: -78px;
     }
 }
 
