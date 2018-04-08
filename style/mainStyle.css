@@ -54,11 +54,19 @@
 .banner-title{
     font-size: 4vw;
     text-align: center;
+    margin-top: -21%;
 }
 
 .banner-text{
     text-align: center;
-    margin-top: 1%;
+    margin-top: -16%;
+}
+
+.banner-center-content{
+    width: 100%;
+    z-index: 20;
+    position:absolute;
+    text-align: center;
 }
 
 .wanna-know-more{
@@ -78,13 +86,13 @@
     width: 100%;
 }
 
-.slide-content{
-    position:absolute;
-    height: 100%;
-    width: 100%;
-    margin-top:-16vh;
-    z-index: 20;
-}
+/*.slide-content{*/
+    /*position:absolute;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*margin-top:-16vh;*/
+    /*z-index: 20;*/
+/*}*/
 
 .slider-img{
     width: 100%;
