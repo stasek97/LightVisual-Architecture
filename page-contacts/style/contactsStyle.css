@@ -107,24 +107,24 @@
 }
 
 .sprite-banner-img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background: url(../img/color-sprite.png);
-    margin-right: 35px;
+    margin-right: 20px;
     background-size: cover;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
     .sprite-banner-img{
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
     }
 }
 
 @media screen and (min-width: 981px) and (max-width: 1199px) {
     .sprite-banner-img{
-        width: 40px;
-        height: 40px;
+        width: 25px;
+        height: 25px;
     }
 }
 
@@ -147,23 +147,24 @@
 }
 
 .list-banner-img-2{
-    background-position-x: -66px;
+    background-position-x: -40px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
     .list-banner-img-2{
-        background-position-x: -52px;
+        background-position-x: -40px;
     }
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1199px) {
     .list-banner-img-2{
-        background-position-x: -54px;
+        background-position-x: -40px;
     }
 }
 
 @media screen and (min-width: 981px) and (max-width: 1199px) {
     .list-banner-img-2{
+        background-position-x: -34px;
     }
 }
 
@@ -173,18 +174,24 @@
 }
 
 .list-banner-img-3{
-    background-position-x: -130px;
+    background-position-x: -79px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
     .list-banner-img-3{
-        background-position-x: -106px;
+        background-position-x: -79px;
     }
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1199px) {
     .list-banner-img-3{
-        background-position-x: -106px;
+        background-position-x: -79px;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .list-banner-img-3{
+        background-position-x: -66px;
     }
 }
 
@@ -252,19 +259,18 @@
 }
 
 .second-sprites-item{
-    width: 52px;
-    height: 52px;
+    width: 35px;
+    height: 35px;
     background: url(../img/sprite-banner-contacts.png);
-    background-position-x: -241px;
-    background-position-y: -203px;
+    background-size: cover;
 }
 
 .second-sprites-img-2{
-    background-position-x: -318px;
+    background-position-x: -52px;
 }
 
 .second-sprites-img-3{
-    background-position-x: -394px;
+    background-position-x: -104px;
 }
 
 .main{
