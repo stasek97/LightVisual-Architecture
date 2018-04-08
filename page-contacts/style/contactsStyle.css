@@ -195,6 +195,16 @@
     }
 }
 
+.list-banner-img-4{
+    background-position-x: -116px;
+}
+
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .list-banner-img-4{
+        background-position-x: -96px;
+    }
+}
+
 .second-part-banner{
     display: flex;
     flex-direction: column;
@@ -266,12 +276,14 @@
 }
 
 .second-sprites-img-2{
-    background-position-x: -41px;
+    background-position-x: -40px;
 }
 
 .second-sprites-img-3{
     background-position-x: -81px;
 }
+
+
 
 .main{
     width: 100%;

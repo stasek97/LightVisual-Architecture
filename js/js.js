@@ -1,4 +1,4 @@
-function hidePreview(){
+function animation(){
     let preview = document.getElementById("preview");
     let mainPage = document.getElementById("main-page");
 
@@ -6,3 +6,5 @@ function hidePreview(){
     mainPage.classList.add("show-main-page");
     mainPage.classList.remove("main-page");
 }
+
+animation();

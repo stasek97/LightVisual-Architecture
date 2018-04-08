@@ -145,9 +145,8 @@
 }
 
 .preview{
-    height: 990px;
+    height: 100vh;
     width: 100%;
-    background: url(../img/preview-img.png) 100% 100% no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -158,21 +157,21 @@
 
 .logo-preview-title{
     font-family: CoCoGothic;
-    color: white;
     font-size: 60px;
     margin-top: 85px;
 }
 
 .logo-preview-caption{
     font-family: CoCoGothic;
-    color: white;
     font-size: 24px;
     margin-top: 30px;
 }
 
-.preview-arrow{
-    position: absolute;
-    bottom: 70px;
+.preview-logo{
+    background: url(../img/lV-black.png) 100% 100% no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
 }
 
 .hidden-preview{
@@ -187,9 +186,9 @@
     position: absolute;
 }
 
-.main-page{
-    width: 100%;
-    display: none;
-    position: absolute;
-    top: 100%;
- }
+/*.main-page{*/
+    /*width: 100%;*/
+    /*display: none;*/
+    /*position: absolute;*/
+    /*top: 100%;*/
+ /*}*/
