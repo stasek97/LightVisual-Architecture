@@ -7,9 +7,14 @@ $(document).ready(function(){
         adaptiveHeight: true,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 3000,
         swipeToSlide: true,
-        responsive: true
+        responsive: true,
+        mobileFirst: true,
+        nextArrow: '<i class="fa fa-arrow-right"></i>',
+        prevArrow: '<i class="fa fa-arrow-left"></i>',
+        fade: true,
+        cssEase: 'linear'
     });
 });
 

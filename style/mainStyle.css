@@ -4,7 +4,6 @@
 
 .photo-gallery{
     width: 100%;
-    margin-top: 12px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,7 +15,7 @@
 }
 
 .block-1{
-    width: 40%;
+    width: 39.95%;
 }
 
 .block-2{
@@ -46,37 +45,49 @@
 }
 
 /*////////////////////slider///////////////////////*/
-/*.text-style{*/
-    /*text-align: center;*/
-    /*color: white;*/
-    /*font-size: 1vw;*/
-/*}*/
-
-/*.banner-title{*/
-    /*font-size: 4vw;*/
-    /*margin-bottom: 0.5%;*/
-/*}*/
-
-/*.banner-text{*/
-    /*margin-top: 23%;*/
-/*}*/
-
-.slider-menu{
-    width: 98%;
+.text-style{
+    color: white;
+    font-size: 1vw;
 }
 
+.banner-title{
+    font-size: 4vw;
+    text-align: center;
+}
 
-/*.wanna-know-more{*/
-    /*color: white;*/
-    /*z-index: 20;*/
-    /*font-size: 1vw;*/
-    /*position: absolute;*/
-    /*margin-top: 44.4%;*/
-    /*margin-left: 47%;*/
-/*}*/
-/*.wanna-know-more-a{*/
-    /*color: white;*/
-/*}*/
+.banner-text{
+    text-align: center;
+    margin-top: 1%;
+}
+
+.wanna-know-more{
+    width: 100%;
+    z-index: 20;
+    position:absolute;
+    margin-top: -2%;
+    font-size: 1vw;
+    text-align: center;
+}
+.wanna-know-more-a{
+    color: white;
+}
+
+.slide-content{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    margin-top:-45vh;
+    z-index: 20;
+}
+
+.slider-menu{
+    margin-top: 85px;
+    width: 100%;
+}
+
+.slider-img{
+    width: 100%;
+}
 
 .preview{
     height: 990px;
