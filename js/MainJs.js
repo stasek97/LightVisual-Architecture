@@ -2,9 +2,12 @@ $(document).ready(function(){
     $('.slider-menu').slick({
         dots: true,
         infinite: true,
-        speed: 300,
+        speed: 1500,
         slidesToShow: 1,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000
     });
 });
 
