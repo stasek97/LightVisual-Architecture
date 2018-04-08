@@ -16,7 +16,7 @@ function up() {
     var timer = setInterval(function () {
         var timePassed = Date.now() - start;
 
-        if (timePassed >= 4000) {
+        if (timePassed >= 6000) {
             clearInterval(timer);
             return;
         }
@@ -26,7 +26,7 @@ function up() {
     }, 20);
 }
 function draw(timePassed) {
-    preview.style.bottom = timePassed / 2.5 + 'px';
+    preview.style.bottom = timePassed / 1.25 + 'px';
 }
 
 setTimeout(up(),4000);
