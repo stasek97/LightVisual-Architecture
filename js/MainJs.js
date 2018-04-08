@@ -7,7 +7,9 @@ $(document).ready(function(){
         adaptiveHeight: true,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 5000
+        autoplaySpeed: 5000,
+        swipeToSlide: true,
+        responsive: true
     });
 });
 
