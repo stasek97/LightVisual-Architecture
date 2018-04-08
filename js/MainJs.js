@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.slider-menu').slick({
         dots: true,
         infinite: true,
-        speed: 1500,
+        speed: 1000,
         slidesToShow: 1,
         adaptiveHeight: true,
         slidesToScroll: 1,
@@ -11,10 +11,13 @@ $(document).ready(function(){
         swipeToSlide: true,
         responsive: true,
         mobileFirst: true,
-        nextArrow: '<i class="fa fa-arrow-right"></i>',
-        prevArrow: '<i class="fa fa-arrow-left"></i>',
+        nextArrow: '<button class="slick-next"></button>',
+        prevArrow: '<button class="slick-prev"></button>',
         fade: true,
         cssEase: 'linear'
     });
+
 });
+
+
 
