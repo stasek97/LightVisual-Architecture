@@ -3,6 +3,7 @@
     height: 737px;
     background: url(../img/banner-contacts.png) 100% 100% no-repeat;
     background-size: cover;
+    margin-top: 115px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -12,7 +13,7 @@
 }
 
 .inner-banner-container{
-    width: 43.79%;
+    width: 51.79%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -84,6 +85,12 @@
     width: 38.2%;
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .column-2-banner-part{
+        width: 39.2%;
+    }
+}
+
 @media screen and (max-width: 1100px) {
     .column-2-banner-part {
         width: 100%;
@@ -101,6 +108,24 @@
     background-size: cover;
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .sprite-banner-img{
+        width: 38px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .sprite-banner-img{
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .sprite-banner-img {
+    }
+}
+
+
 .link-banner-list{
     color: white;
     display: flex;
@@ -117,8 +142,30 @@
     background-position-x: -66px;
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .list-banner-img-2{
+        background-position-x: -52px;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .list-banner-img-2{
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .list-banner-img-2 {
+    }
+}
+
 .list-banner-img-3{
     background-position-x: -130px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .list-banner-img-3{
+        background-position-x: -106px;
+    }
 }
 
 .second-part-banner{
@@ -129,7 +176,7 @@
 
 .block-telephone{
     display: flex;
-    margin-top: 100px;
+    margin-top: 65px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -143,26 +190,26 @@
 
 .telephone-number{
     color: white;
-    font-size: 36px;
+    font-size: 21px;
     font-family: "Century Gothic";
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
     .telephone-number{
-        font-size: 38px;
+        font-size: 18px;
     }
 }
 
 @media screen and (min-width: 981px) and (max-width: 1199px) {
     .telephone-number{
-        font-size: 30px;
+        font-size: 16px;
         margin: 10px 0;
     }
 }
 
 @media screen and (max-width: 980px) {
     .telephone-number {
-        font-size: 30px;
+        font-size: 14px;
         margin: 10px 0;
     }
 }
@@ -243,7 +290,7 @@
 }
 
 .main-paragraph{
-    margin-top: 65px;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -255,11 +302,11 @@
 .main-link-mail{
     font-family: CoCoGothic;
     font-size: 18px;
-    margin-top: 32px;
+    margin-top: 25px;
 }
 
 .main-link-number {
-    margin-top: 32px;
+    margin-top: 25px;
     font-size: 18px;
 }
 
