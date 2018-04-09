@@ -195,7 +195,7 @@
 }
 
 .hidden-preview{
-    transform: translateY(-115vh);
+    transform: translateY(-125vh);
     will-change: transform;
     transition: transform 2s ease-in-out;
 }
