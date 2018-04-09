@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "CoCoGothicLight";
+    src: url("../../common/fonts/CocoGothicLight-trial.ttf");
+}
+
 .banner-section{
     display: flex;
     flex-direction: column;

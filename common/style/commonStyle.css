@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "CoCoGothic";
-    src: url("../fonts/CocoGothicRegular-trial.ttf");
+    font-family: "CoCoGothicLight";
+    src: url("../fonts/CocoGothicLight-trial.ttf");
 }
 
 .wrapper{
@@ -79,7 +79,7 @@ a{
 
 
 .logo-caption{
-    font-family: CoCoGothic;
+    font-family: Verdana;
     font-size: 25px;
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@ a{
 }
 
 .list-menu{
-    font-family: CoCoGothic;
+    font-family: CoCoGothicLight;
     font-size: 18px;
     display: flex;
     height: 100%;
@@ -171,7 +171,7 @@ a{
 }
 
 .sprite-item-3{
-    background-position-x: -58px;
+    background-position-x: -57px;
 }
 
 .main{
@@ -192,7 +192,7 @@ a{
 }
 
 .footer-text{
-    font-family: CoCoGothic;
+    font-family: CoCoGothicLight;
     font-size: 18px;
 }
 
@@ -202,7 +202,7 @@ a{
 }
 
 .text-style{
-    font-family: "CoCoGothic";
+    font-family: "CoCoGothicLight";
     font-size: 14px;
     text-align: justify;
 }
