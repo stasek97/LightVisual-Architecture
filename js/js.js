@@ -1,18 +1,11 @@
 let preview = document.getElementById("preview");
-let mainPage = document.getElementById("main-page");
 let currentX = 0;
 
 function tick() {
-    currentX -= 5;
-
-    preview.style.transform = `translateY(${currentX}vh)`;
-
-    if(currentX >= -115){
-        requestAnimationFrame(tick);
-    }
+    preview.classList.add("hidden-preview");
 }
 
-setTimeout(tick, 3000);
+// setTimeout(tick, 3000);
 
 
 //
