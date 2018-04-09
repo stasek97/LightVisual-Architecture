@@ -152,24 +152,24 @@
 }
 
 .list-banner-img-2{
-    background-position-x: -40px;
+    background-position-x: -30px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
     .list-banner-img-2{
-        background-position-x: -40px;
+        background-position-x: -30px;
     }
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1199px) {
     .list-banner-img-2{
-        background-position-x: -40px;
+        background-position-x: -30px;
     }
 }
 
 @media screen and (min-width: 981px) and (max-width: 1199px) {
     .list-banner-img-2{
-        background-position-x: -34px;
+        background-position-x: -25px;
     }
 }
 
@@ -179,34 +179,34 @@
 }
 
 .list-banner-img-3{
-    background-position-x: -78px;
+    background-position-x: -62px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
     .list-banner-img-3{
-        background-position-x: -78px;
+        background-position-x: -62px;
     }
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1199px) {
     .list-banner-img-3{
-        background-position-x: -78px;
+        background-position-x: -62px;
     }
 }
 
 @media screen and (min-width: 981px) and (max-width: 1199px) {
     .list-banner-img-3{
-        background-position-x: -66px;
+        background-position-x: -51px;
     }
 }
 
 .list-banner-img-4{
-    background-position-x: -116px;
+    background-position-x: -94px;
 }
 
 @media screen and (min-width: 981px) and (max-width: 1199px) {
     .list-banner-img-4{
-        background-position-x: -96px;
+        background-position-x: -78px;
     }
 }
 
