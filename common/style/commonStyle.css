@@ -80,11 +80,11 @@ a{
 
 .logo-caption{
     font-family: Verdana;
-    font-size: 44px;
+    font-size: 37px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 13px;
     font-weight: bold;
 }
 
@@ -97,7 +97,7 @@ a{
 
 
 .secondary-logo-text{
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 10px;
 }
 
@@ -160,15 +160,20 @@ a{
 }
 
 .sprite-item{
-    width: 22px;
-    height: 22px;
+    width: 28px;
+    height: 28px;
     background: url(../img/Sprites.png) no-repeat;
-    margin-left: 5px;
+    margin-left: 39px;
     background-size: cover;
 }
 
+.sprite-item:last-of-type{
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
 .sprite-item-3{
-    background-position-x: -22px;
+    background-position-x: -29px;
 }
 
 .main{

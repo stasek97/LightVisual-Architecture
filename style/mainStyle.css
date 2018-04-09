@@ -198,15 +198,15 @@
 }
 
 .hidden-preview{
-    top: -100%;
-    transition: top 2s linear, overflow 2s linear;
+    transform: translateY(-100%);
+    transition: translateY 2s linear, overflow 2s linear;
 }
 
 .show-main-page{
-    top: 0;
-    transition: top 2.5s linear;
+    transform: translateY(-100vh);
+    will-change: transform;
+    transition: transform 1.8s linear;
     width: 100%;
-    position: absolute;
 }
 
 /*.main-page{*/
