@@ -5,7 +5,7 @@ function tick() {
     preview.classList.add("hidden-preview");
 }
 
-// setTimeout(tick, 3000);
+setTimeout(tick, 3000);
 
 
 //
