@@ -35,14 +35,19 @@
         flex-wrap: wrap;
     }
 }
-@media screen and (min-width: 2100px){
+@media screen and (min-width: 2300px){
     .photo-gallery{
-        margin-top: -10px;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        margin-top: -0.6vw;
+    }
+}
+@media screen and (min-width: 3200px){
+    .photo-gallery{
+        margin-top: -0.4vw;
+    }
+}
+@media screen and (min-width: 3600px){
+    .photo-gallery{
+        margin-top: -0.2vw;
     }
 }
 
