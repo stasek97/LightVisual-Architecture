@@ -11,10 +11,10 @@ $(document).ready(function(){
         swipeToSlide: true,
         responsive: true,
         mobileFirst: true,
-        nextArrow: '<button class="slick-next"></button>',
-        prevArrow: '<button class="slick-prev"></button>',
+        arrows: true,
         fade: true,
-        cssEase: 'linear'
+        cssEase: 'linear',
+        CenterMode: true
     });
 
 });
