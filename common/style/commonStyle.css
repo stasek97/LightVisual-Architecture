@@ -196,11 +196,13 @@ a{
 .footer-text{
     font-family: CoCoGothicLight;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .footer-text-year{
     font-family: "Century Gothic";
     margin-right: 5px;
+    font-weight: normal;
 }
 
 .text-style{
