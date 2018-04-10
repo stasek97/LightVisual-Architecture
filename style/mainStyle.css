@@ -241,7 +241,7 @@
 .hidden-preview{
     transform: translateY(-100%) scale(0.5, 0.5);
     opacity: 0;
-    will-change: opacity;
+    will-change: transform;
     /*transition: transform 0s ease-in-out, opacity 1.5s ease-in-out;*/
     transition: opacity 1.5s ease-in-out 0s,transform 0s ease-in-out 1.5s;
 }
