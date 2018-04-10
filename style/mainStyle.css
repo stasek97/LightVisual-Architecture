@@ -101,7 +101,7 @@
 }
 
 .banner-title{
-    font-size: 4vw;
+    font-size: 80px;
     text-align: center;
     bottom: 42%;
 }
@@ -145,11 +145,11 @@
 }
 
 .slick-prev {
-    left: 19px;
+    left: 85px;
 }
 
 .slick-next {
-    right: 31px;
+    right: 97px;
 }
 
 .slick-prev, .slick-next{
