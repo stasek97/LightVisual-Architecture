@@ -239,10 +239,11 @@
 }
 
 .hidden-preview{
-    transform: translateY(-100%) scale(0.5, 0.5);
+    /*transform: translateY(-100%) scale(0.5, 0.5);*/
     opacity: 0;
-    will-change: transform;
-    transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
+    will-change: opacity;
+    /*transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;*/
+    transition:  opacity 1.5s ease-in-out;
 }
 
 .show-main-page{
