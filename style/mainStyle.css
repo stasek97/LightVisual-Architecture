@@ -192,7 +192,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     position: relative;
 
     background-color: white;
@@ -205,12 +205,13 @@
     font-family: Verdana;
     font-size: 55px;
     font-weight: bold;
+    margin-top: 2%;
 }
 
 .logo-preview-caption{
-    font-family: CoCoGothicLight;
-    font-size: 19px;
-    margin-top: -67px;
+    font-family: Verdana;
+    font-size: 17px;
+    margin-top: 1%;
 }
 
 .preview-logo{
@@ -244,6 +245,7 @@
     width: 40px;
     height: 40px;
     background-color: black;
+    margin-top: 2%;
 
     -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
     animation: sk-rotateplane 1.2s infinite ease-in-out;

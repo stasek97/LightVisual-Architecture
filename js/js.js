@@ -8,7 +8,7 @@ function tick() {
     body.classList.add("scroll-body");
 }
 
-setTimeout(tick, 3000);
+// setTimeout(tick, 3000);
 
 
 //
