@@ -1,3 +1,11 @@
+.no-scroll{
+    overflow: hidden;
+}
+
+.scroll-body{
+    overflow: scroll;
+}
+
 .header{
     z-index: 15;
 }
@@ -190,6 +198,7 @@
     background-color: white;
     z-index: 50;
     box-shadow: 0 0 300px #363636;
+    opacity: 1;
 }
 
 .logo-preview-title{
@@ -212,15 +221,16 @@
 }
 
 .hidden-preview{
-    transform: translateY(-125vh);
+    transform: translateY(-100%) scale(0.5, 0.5);
+    opacity: 0;
     will-change: transform;
-    transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out, opacity 2s ease-in-out;
 }
 
 .show-main-page{
-    transform: translateY(-100vh);
     width: 100%;
-    height: 100vh;
+    position: absolute;
+    top: 0;
 }
 
 /*.main-page{*/

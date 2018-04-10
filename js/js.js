@@ -1,8 +1,11 @@
 let preview = document.getElementById("preview");
-let currentX = 0;
+let body = document.getElementById("body");
+
 
 function tick() {
     preview.classList.add("hidden-preview");
+    body.classList.remove("no-scroll");
+    body.classList.add("scroll-body");
 }
 
 setTimeout(tick, 3000);
