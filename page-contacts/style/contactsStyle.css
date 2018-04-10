@@ -362,11 +362,47 @@
 .row-second-main{
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
+}
+
+.card-container{
+    width: 23.7%;
+    height: 255px;
+    position: relative;
+}
+
+.card-container:hover > .card-photo-text{
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
+}
+
+.card-container:hover > .card-photo{
+    cursor: pointer;
+}
+
+.card-photo-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    font-family: CoCoGothicLight;
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    transform: scale(0.8);
 }
 
 .card-photo{
-    width: 23.7%;
-    height: 255px;
+    width: 100%;
+    height: 100%;
     background: url(../img/card-photo.png) 100% 100% no-repeat;
     background-size: cover;
     margin-top: 15px;
@@ -374,19 +410,19 @@
 
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
-    .card-photo{
+    .card-container{
         height: 195px;
     }
 }
 
 @media screen and (min-width: 981px) and (max-width: 1199px) {
-    .card-photo{
+    .card-container{
         height: 160px;
     }
 }
 
 @media screen and (max-width: 980px) {
-    .card-photo {
+    .card-container {
         height: 155px;
     }
 }
