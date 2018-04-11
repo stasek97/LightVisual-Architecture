@@ -66,6 +66,9 @@ a{
     align-items: center;
 }
 
+
+
+
 .block-logo{
     display: flex;
     align-items: center;
@@ -181,8 +184,20 @@ a{
 .sprite-item{
     width: 21px;
     height: 21px;
-    margin-left: 30px;
+    /*margin-left: 30px;*/
 }
+
+/*//////////////////////////////////////////////////////////////////////////*/
+.gmail-icon{
+    filter: invert(100%);
+    width: 21.2px;
+    background: url(../img/color-sprite.png);
+    background-position-x: -0.2px;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 0.1px;
+}
+/*//////////////////////////////////////////////////////////////////////////*/
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
     .sprite-item:first-of-type {
