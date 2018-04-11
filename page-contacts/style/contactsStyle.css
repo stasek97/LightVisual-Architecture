@@ -377,7 +377,7 @@
 .card-photo-text-container:hover > .card-photo-text{
     opacity: 1;
     transform: scale(1);
-    transition: transform 1s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     cursor: pointer;
 }
 
@@ -387,11 +387,13 @@
 
 .card-container:hover > .card-photo-text-container{
     opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+    transition: background-color 0.5s ease-in-out;
     cursor: pointer;
 }
 
 .card-photo-text-container{
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.0);
     opacity: 0;
     width: 100%;
     height: 100%;
