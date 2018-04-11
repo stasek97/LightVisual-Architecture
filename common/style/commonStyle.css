@@ -181,9 +181,7 @@ a{
 .sprite-item{
     width: 21px;
     height: 21px;
-    background: url(../img/Sprites.png) no-repeat;
     margin-left: 39px;
-    background-size: cover;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
@@ -195,10 +193,6 @@ a{
 .sprite-item:last-of-type{
     margin-right: 10px;
     margin-left: 15px;
-}
-
-.sprite-item-3{
-    background-position-x: -21px;
 }
 
 .main{
