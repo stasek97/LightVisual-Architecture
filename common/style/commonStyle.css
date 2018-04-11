@@ -181,7 +181,7 @@ a{
 .sprite-item{
     width: 21px;
     height: 21px;
-    margin-left: 39px;
+    margin-left: 30px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
@@ -193,6 +193,12 @@ a{
 .sprite-item:last-of-type{
     margin-right: 10px;
     margin-left: 15px;
+}
+
+@media screen and (max-width: 1199px) {
+    .sprite-item:first-of-type {
+        margin-left: 15px;
+    }
 }
 
 .main{
