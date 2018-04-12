@@ -1,8 +1,8 @@
-@font-face {
-    font-family: "CoCoGothicLight";
-    src: url("../fonts/Roboto-Black.ttf");
-    /*src: url("../fonts/CocoGothicLight-trial.ttf");*/
-}
+/*@font-face {*/
+    /*font-family: "Roboto-Regular";*/
+    /*src: url("../fonts/Roboto-Black.ttf");*/
+    /*!*src: url("../fonts/Roboto-Regular-trial.ttf");*!*/
+/*}*/
 .wrapper{
     width: 100%;
     display: flex;
@@ -120,7 +120,7 @@ a{
 }
 
 .list-menu{
-    font-family: CoCoGothicLight;
+    font-family: Roboto, sans-serif;
     font-size: 17px;
     display: flex;
     height: 100%;
@@ -234,21 +234,21 @@ a{
 }
 
 .footer-text{
-    font-family: CoCoGothicLight;
+    font-family: Roboto , sans-serif;
     font-size: 18px;
     font-weight: bold;
     text-shadow: -1px 0 0 black;
 }
 
 .footer-text-year{
-    font-family: "Century Gothic";
+    font-family: Century Gothic;
     margin-right: 5px;
     font-weight: normal;
     text-shadow: none;
 }
 
 .text-style{
-    font-family: "CoCoGothicLight";
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     text-align: justify;
 }
