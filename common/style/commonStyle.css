@@ -88,7 +88,7 @@ a{
 
 
 .logo-caption{
-    font-family: Verdana;
+    font-family: Roboto, sans-serif;
     font-size: 30px;
     display: flex;
     flex-direction: column;
@@ -121,6 +121,7 @@ a{
 
 .list-menu{
     font-family: Roboto, sans-serif;
+    color: rgb(100,100,100);
     font-size: 17px;
     display: flex;
     height: 100%;
