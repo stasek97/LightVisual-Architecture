@@ -219,14 +219,14 @@
 }
 
 .logo-preview-title{
-    font-family: Verdana;
+    font-family: Roboto, sans-serif;
     font-size: 55px;
     font-weight: bold;
     margin-top: 5%;
 }
 
 .logo-preview-caption{
-    font-family: Verdana;
+    font-family: Roboto, sans-serif;
     font-size: 17px;
     margin-top: 1%;
 }
