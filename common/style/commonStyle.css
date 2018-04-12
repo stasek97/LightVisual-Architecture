@@ -106,7 +106,7 @@ a{
 
 
 .secondary-logo-text{
-    font-size: 10px;
+    font-size: 17px;
     margin-top: 10px;
 }
 @media screen and (max-width:1200px){
@@ -147,8 +147,14 @@ a{
 
 
 .menu-item{
-    margin-right: 65px;
+    /*margin-right: 65px;*/
     margin-left: 99px;
+}
+@media screen and (max-width: 1400px){
+    .menu-item{
+        /*margin-right: 65px;*/
+        margin-left: 50px;
+    }
 }
 
 .menu-item a{
