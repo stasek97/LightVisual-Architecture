@@ -121,7 +121,6 @@ a{
 
 .list-menu{
     font-family: Roboto, sans-serif;
-    color: rgb(100,100,100);
     font-size: 17px;
     display: flex;
     height: 100%;
@@ -149,31 +148,37 @@ a{
 
 .menu-item{
     margin-right: 65px;
+    color: rgb(100,100,100);
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1550px) {
     .menu-item{
         margin-right: 45px;
+        color: rgb(100,100,100);
     }
 
     .sprite-item:first-of-type{
         margin-left: 25px;
+        color: rgb(100,100,100);
     }
 
     .menu-item:last-of-type{
         margin-right: 10px;
+        color: rgb(100,100,100);
     }
 }
 
 @media screen and (min-width: 981px) and (max-width: 1199px) {
     .menu-item{
         margin-right: 20px;
+        color: rgb(100,100,100);
     }
 }
 
 @media screen and (max-width: 980px) {
     .menu-item {
         margin-right: 30px;
+        color: rgb(100,100,100);
     }
 }
 
