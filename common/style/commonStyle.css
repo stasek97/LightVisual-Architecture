@@ -150,7 +150,7 @@ a{
     /*margin-right: 65px;*/
     margin-left: 99px;
 }
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1100px){
     .menu-item{
         /*margin-right: 65px;*/
         margin-left: 50px;
