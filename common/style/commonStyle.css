@@ -1,8 +1,8 @@
 @font-face {
     font-family: "CoCoGothicLight";
-    src: url("../fonts/CocoGothicLight-trial.ttf");
+    src: url("../fonts/Roboto-Black.ttf");
+    /*src: url("../fonts/CocoGothicLight-trial.ttf");*/
 }
-
 .wrapper{
     width: 100%;
     display: flex;
