@@ -52,15 +52,15 @@
 }
 
 .img{
-    margin-bottom:12px;
+    margin-bottom: 0.8vw;
 }
 
 .block-1{
-    width: 39.95%;
+    width: 39.94%;
 }
 
 .block-2{
-    width: 59.375%;
+    width: 59.28%;
 }
 @media screen and (max-width: 1000px) {
     .block-1{
@@ -69,6 +69,12 @@
 
     .block-2{
         width: 100%;
+    }
+    .phone-img{
+        margin-bottom: 1vw;
+    }
+    .img{
+        margin-bottom: 1vw;
     }
 }
 
@@ -91,7 +97,7 @@
 }
 
 .photo-gallery-width-3{
-    width: 31.62%;
+    width: 31.32%;
 }
 
 /*////////////////////slider///////////////////////*/
