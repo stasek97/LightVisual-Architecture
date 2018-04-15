@@ -4,7 +4,7 @@ $(document).ready(function() {
         var windowHeight = $(window).height();
         var documentHeight = $(document).height();
 
-        if((windowScroll + windowHeight) >= documentHeight){
+        if((windowScroll + windowHeight) > documentHeight){
             $(".photo-gallery").append('<div class="added-photo-gallery">\n' +
                 '                <div class="column block-1">\n' +
                 '                    <img class="img" src="img/1.png" alt="gallery item">\n' +
