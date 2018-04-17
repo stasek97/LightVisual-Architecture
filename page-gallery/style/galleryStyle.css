@@ -8,6 +8,11 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+@media screen and (min-width: 1101px) and (max-width: 1550px) {
+    .photo-gallery{
+        margin-top: 111px;
+    }
+}
 @media screen and (max-width: 1000px){
     .photo-gallery{
         margin-top: 87px;
