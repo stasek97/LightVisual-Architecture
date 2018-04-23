@@ -74,17 +74,8 @@
     flex-wrap:          wrap;
     justify-content:    space-between;
     width:              100%;
-    -webkit-transition: all 1.5s ease; 
-    -moz-transition:    all 1.5s ease; 
-    -o-transition:      all 1.5s ease; 
-    -ms-transition:     all 1.5s ease; 
-    transition:         all 1.5s ease; 
 }
 
-.row:hover{
-    width:  103%;
-    height: 103%;
-}
 
 figure{
     width:             100%;
@@ -119,4 +110,16 @@ figure:hover{
 img{
     height: 100%;
     width: 100%;
+    overflow:           hidden;
+    -webkit-transition: all 1.5s ease; 
+    -moz-transition:    all 1.5s ease; 
+    -o-transition:      all 1.5s ease; 
+    -ms-transition:     all 1.5s ease; 
+    transition:         all 1.5s ease; 
+}
+
+img:hover{
+    height: 100%;
+    width: 100%;
+    overflow:           hidden;
 }
